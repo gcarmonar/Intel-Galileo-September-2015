@@ -1,0 +1,42 @@
+.center{
+    text-align: center;
+}
+
+h1{
+    font-style: italic;
+}
+
+#notifier_circle{
+    display: inline-block;
+    margin-top: 18px;
+    -webkit-animation-name: spin;
+    -webkit-animation-duration: 3s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear;
+    -moz-animation-name: spin;
+    -moz-animation-duration: 3s;
+    -moz-animation-iteration-count: infinite;
+    -moz-animation-timing-function: linear;
+    -ms-animation-name: spin;
+    -ms-animation-duration: 3s;
+    -ms-animation-iteration-count: infinite;
+    -ms-animation-timing-function: linear;
+    
+    border-radius: 50%;
+ }
+
+.green{
+    background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, #80EE9F 0%, #1BCA37 100%, #AFEAAA 95%);
+    background-image: -webkit-radial-gradient(45px 45px, circle cover, #80EE9F, #1BCA37);
+    background-image: radial-gradient(45px 45px 45deg, circle cover, #80EE9F 0%, #1BCA37 100%, #AFEAAA 95%);
+}
+
+.gray{
+    background-image: -moz-radial-gradient(45px 45px 45deg, circle cover, rgba(182, 180, 180, 0.59) 0%, rgba(178, 190, 180, 0) 100%, black 95%);
+    background-image: -webkit-radial-gradient(45px 45px, circle cover, rgba(182, 180, 180, 0.59), rgba(178, 190, 180, 0));
+    background-image: radial-gradient(45px 45px 45deg, circle cover, rgba(182, 180, 180, 0.59) 0%, rgba(178, 190, 180, 0) 100%, black 95%);
+}
+
+.redtext{
+	color:red;
+}
